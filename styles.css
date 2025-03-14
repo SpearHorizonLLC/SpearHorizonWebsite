@@ -707,7 +707,6 @@ nav {
 
 /* Contact Section - Bold and balanced */
 .contact {
-    background: linear-gradient(135deg, var(--dark-accent), var(--primary-color));
     color: white;
     padding: 120px 0;
     position: relative;
@@ -813,11 +812,11 @@ nav {
 
 /* Footer Styles - Elegant and balanced */
 footer {
-    background-color: var(--neutral-dark);
-    color: white;
+    background-color: var(--neutral-light);
     padding: 60px 0 30px;
     position: relative;
     overflow: hidden;
+    color: white;
 }
 
 footer::before {
