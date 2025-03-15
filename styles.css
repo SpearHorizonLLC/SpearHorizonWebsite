@@ -26,7 +26,6 @@
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -44,8 +43,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1400px;
+    margin: 0;
     padding: 0 30px;
 }
 
@@ -136,6 +135,7 @@ nav {
     transform: scaleX(1);
     transform-origin: left;
 }
+
 .arrow {
             position: absolute;
             top: 50%;
@@ -251,7 +251,7 @@ nav {
 .hero {
     background: linear-gradient(135deg, var(--dark-accent), var(--primary-color), var(--secondary-color));
     color: white;
-    padding: 180px 0 120px;
+    padding: 200px 0 150px;
     position: relative;
     overflow: hidden;
 }
@@ -282,7 +282,7 @@ nav {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    animation: fadeInUp 1s ease-out;
+    animation: fadeInUp 3s ease-out;
 }
 
 .hero p {
@@ -290,13 +290,13 @@ nav {
     max-width: 700px;
     margin: 0 auto 40px;
     opacity: 0.9;
-    animation: fadeInUp 1s ease-out 0.2s both;
+    animation: fadeInUp 5s ease-out 0.2s both;
 }
 
 .hero .cta-button {
     padding: 15px 40px;
     font-size: 18px;
-    animation: fadeInUp 1s ease-out 0.4s both;
+    animation: fadeInUp 5s ease-out 0.4s both;
     background: linear-gradient(135deg, var(--gold), var(--light-accent));
     box-shadow: 0 5px 20px rgba(248, 177, 149, 0.4);
 }
@@ -365,7 +365,7 @@ nav {
 /* Featured Apps Section - Elegant and balanced */
 .featured-apps {
     padding: 120px 0;
-    background-color: var(--neutral-light);
+    background-color: white;
     position: relative;
 }
 
